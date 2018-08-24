@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation", "QuadraticEquation\QuadraticEquation.csproj", "{9DF14702-1DA9-4808-A698-DF35D149D9CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation_SingleMethod", "QuadraticEquation_SingleMethod\QuadraticEquation_SingleMethod.csproj", "{AD0E4AC9-A243-4075-86D4-577E9723B92B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadratic_Equation", "Quadratic_Equation\Quadratic_Equation.csproj", "{6FABE619-4771-418D-A699-DCDA497FF08A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation_PseudoTest", "QuadraticEquation_PseudoTest\QuadraticEquation_PseudoTest.csproj", "{84DD01E7-B275-461F-BF7C-2D8FD96507C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{45DACE42-DE7E-454F-8A89-BC8E8EAD44CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{6CA02FA7-7DB7-4071-99B8-04EF84537017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Tests", "NUnit.Tests\NUnit.Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +21,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9DF14702-1DA9-4808-A698-DF35D149D9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DF14702-1DA9-4808-A698-DF35D149D9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DF14702-1DA9-4808-A698-DF35D149D9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DF14702-1DA9-4808-A698-DF35D149D9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0E4AC9-A243-4075-86D4-577E9723B92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0E4AC9-A243-4075-86D4-577E9723B92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0E4AC9-A243-4075-86D4-577E9723B92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0E4AC9-A243-4075-86D4-577E9723B92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FABE619-4771-418D-A699-DCDA497FF08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FABE619-4771-418D-A699-DCDA497FF08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FABE619-4771-418D-A699-DCDA497FF08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FABE619-4771-418D-A699-DCDA497FF08A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84DD01E7-B275-461F-BF7C-2D8FD96507C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84DD01E7-B275-461F-BF7C-2D8FD96507C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84DD01E7-B275-461F-BF7C-2D8FD96507C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84DD01E7-B275-461F-BF7C-2D8FD96507C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD0E4AC9-A243-4075-86D4-577E9723B92B} = {6CA02FA7-7DB7-4071-99B8-04EF84537017}
+		{6FABE619-4771-418D-A699-DCDA497FF08A} = {6CA02FA7-7DB7-4071-99B8-04EF84537017}
+		{84DD01E7-B275-461F-BF7C-2D8FD96507C4} = {45DACE42-DE7E-454F-8A89-BC8E8EAD44CA}
+		{8EDF4429-251A-416D-BB68-93F227191BCF} = {45DACE42-DE7E-454F-8A89-BC8E8EAD44CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5376EF7-278D-4E0B-B7D5-64FC1B751291}
