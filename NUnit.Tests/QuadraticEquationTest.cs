@@ -30,7 +30,7 @@ namespace NUnit.Tests
         }
 
         [Test]
-        public void IsEmptyAllFields_Test()
+        public void IsEmpty_AllFields_Test()
         {
             var model = new QuadraticEquationModel() { A = 2, B = 1, C = 8 };
             var actualResult = model.IsEmty();
